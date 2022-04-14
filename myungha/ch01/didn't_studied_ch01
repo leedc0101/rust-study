@@ -1,0 +1,8 @@
+Installation
+1.  Visual Studio C++ Build tools 설치
+https://visualstudio.microsoft.com/ko/visual-cpp-build-tools/
+2. RustUp 설치(default 옵션으로 설치)
+https://www.rust-lang.org/tools/install
+3. 버전 확인
+cmd를 열고 $`rustc --version`을 입력한다
+> rustc 1.60.0 (7737e0b5c 2022-04-04)
