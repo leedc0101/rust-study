@@ -1,3 +1,3 @@
 # SKKRYPTO Rust Study
 
-### Contributor : leedc0101, chomyungha51
+Contributor : leedc0101, chomyungha51
