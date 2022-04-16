@@ -1,0 +1,29 @@
+1. 새 프로젝트 생성
+cargo new guessing_game
+cd guessing_game
+
+cargo run : 프로젝트를 빠르게 반복해서 실행해야 하는 경우
+
+2. Crate : 크레이트. 러스트 코드 패키지.
+Cargo.toml 파일의 [dependencies] 절 밑에
+프로젝트가 의존하고 있는 모든 외부 크레이트와 각각의 요구 버전을 명시
+그렇게 하면 Cargo는 Crates.io에서 의존성 가져옴
+Crate.io 러스트 오픈 소스 생태계.
+
+cargo build를 할 때 해당 크레이트 불러와서 같이 컴파일함
+
+크레이트에는 두 가지 유형이 있음
+- binary : exe. 실행가능파일
+- library : 다른 프로그램에서 사용되고, 스스로는 실행될 수 없는 코드
+
+
+
+
+3. Cargo.lock : 맨처음 빒드할 때 의존성 버전 명시
+명시적으로 버전 업데이트하지 않는 이상
+여기에 명시된 버전의 크레이트를 사용
+
+
+Cargo update : 범위 내에서 최신 버전으로 업데이트해줌
+다음 버전으로 넘어가고 싶으면 .toml파일 수정해야 함
+
