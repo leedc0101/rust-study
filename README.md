@@ -1,6 +1,6 @@
 # SKKRYPTO Rust Study
 
-Contributor : leedc0101, chomyungha51, Heymin-xxx
+Contributor : leedc0101, chomyungha51, Heymin-xxx, RokiLord
 
 Study material<br>
 https://doc.rust-lang.org/book/title-page.html
